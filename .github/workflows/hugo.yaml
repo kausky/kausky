@@ -43,19 +43,19 @@ jobs:
         id: pages
         uses: actions/configure-pages@v3
 
-      # Check directory structure
+      # Debug directory structure
       - name: Debug - List project files
         run: ls -la
 
-      # Add verbose output to Hugo build
+      # Build the site
       - name: Build with Hugo
         run: |
           echo "Building with Hugo ${{ env.HUGO_VERSION }}"
-          hugo --verbose --minify
+          hugo --minify
           echo "Checking the public directory:"
           ls -la ./public || echo "Public directory not found!"
 
-      # Check if public directory exists
+      # Verify the public directory exists
       - name: Verify public directory
         run: |
           if [ -d "public" ]; then
@@ -69,7 +69,7 @@ jobs:
           fi
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2 # Trying with v2 instead of v3
+        uses: actions/upload-pages-artifact@v4 # Using v4 (latest version)
         with:
           path: ./public
 
@@ -83,4 +83,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
-        # Removing the artifact_name parameter to use the default
