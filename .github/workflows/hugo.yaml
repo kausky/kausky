@@ -43,36 +43,17 @@ jobs:
         id: pages
         uses: actions/configure-pages@v3
 
-      # Debug directory structure
-      - name: Debug - List project files
-        run: ls -la
-
       # Build the site
       - name: Build with Hugo
         run: |
           echo "Building with Hugo ${{ env.HUGO_VERSION }}"
           hugo --minify
-          echo "Checking the public directory:"
-          ls -la ./public || echo "Public directory not found!"
-
-      # Verify the public directory exists
-      - name: Verify public directory
-        run: |
-          if [ -d "public" ]; then
-            echo "Public directory exists"
-            echo "Content of public directory:"
-            ls -la public/
-          else:
-            echo "Public directory does not exist! Creating empty directory."
-            mkdir -p public
-            echo "Hello World" > public/index.html  #Good practice to put a file.
-          fi
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
-          name: github-pages # *** ADD THIS LINE ***
+          name: github-pages
 
   deploy:
     environment:
