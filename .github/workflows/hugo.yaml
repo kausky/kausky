@@ -22,7 +22,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.118.2
+      HUGO_VERSION: 0.125.0 # Using a more recent version
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -39,9 +39,9 @@ jobs:
         run: hugo --minify
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3 # Updated to v3
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public
+          path: ./public # No name specified - uses the default
 
   deploy:
     environment:
@@ -52,4 +52,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v2 # Correctly using the default
