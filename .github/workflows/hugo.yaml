@@ -62,16 +62,17 @@ jobs:
             echo "Public directory exists"
             echo "Content of public directory:"
             ls -la public/
-          else
+          else:
             echo "Public directory does not exist! Creating empty directory."
             mkdir -p public
-            echo "Hello World" > public/index.html
+            echo "Hello World" > public/index.html  #Good practice to put a file.
           fi
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
+          name: github-pages # *** ADD THIS LINE ***
 
   deploy:
     environment:
