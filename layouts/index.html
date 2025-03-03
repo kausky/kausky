@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="home-page">
+    <h1>Welcome to {{ .Site.Title }}</h1>
+    <p>This is my custom home page</p>
+
+    <h2>Recent Posts</h2>
+    <ul>
+        {{ range first 3 (where .Site.RegularPages "Type" "posts") }}
+        <li>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            <time>{{ .Date.Format "January 2, 2006" }}</time>
+        </li>
+        {{ end }}
+    </ul>
+</div>
+{{ end }}

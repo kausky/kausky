@@ -1,0 +1,9 @@
+title = "Kausky.com"
+baseURL = "https://kausky.com"
+theme = "ananke"
+languageCode = "en-us"
+
+[params]
+  description = "Welcome Kausky's Home"
+  featured_image = "/images/hero.jpg"
+  recent_posts_number = 3
