@@ -61,7 +61,7 @@ work:
     company_name: Lyric
     company_url: 'https://lyric.tech'
     company_logo: ''
-    date_start: 2023-07-01
+    date_start: 2025-03-10
     date_end: ''
     summary: |2-
       Working on machine learning, MLOps, and software engineering projects, focusing on:
@@ -72,7 +72,7 @@ work:
     company_name: Tune AI
     company_url: ''
     company_logo: ''
-    date_start: 2023-07-01
+    date_start: 2025-02-26
     date_end: '2023-07-01'
     summary: |2-
       Key achievements:
