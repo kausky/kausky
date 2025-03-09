@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Software Engineer at Lyric
+role: Software & Machine Learning Engineer 
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
