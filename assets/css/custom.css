@@ -1,0 +1,38 @@
+/* Custom CSS for Kausky website */
+
+/* Make hero section text whiter for better contrast */
+.block-resume-biography-3 {
+    color: #ffffff !important;
+}
+
+.block-resume-biography-3 h1,
+.block-resume-biography-3 h2,
+.block-resume-biography-3 h3,
+.block-resume-biography-3 .role,
+.block-resume-biography-3 .biography-text,
+.block-resume-biography-3 .profile-text,
+.block-resume-biography-3 .additional-text,
+.block-resume-biography-3 .page-subtitle,
+.block-resume-biography-3 .btn {
+    color: #ffffff !important;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Make sure social icons are visible */
+.block-resume-biography-3 .network-icon li a i {
+    color: #ffffff !important;
+}
+
+/* Enhance button visibility */
+.block-resume-biography-3 .btn-primary {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    border-color: #ffffff !important;
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+.block-resume-biography-3 .btn-primary:hover {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
