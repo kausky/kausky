@@ -1,7 +1,8 @@
 ---
-title: 🧠 Sharpen your thinking with a second brain
-summary: Create a personal knowledge base and share your knowledge with your peers.
-date: 2023-10-26
+title: Building a Personal Knowledge Base
+subtitle: Organizing information for better productivity
+
+date: 2024-03-06
 authors:
   - admin
 tags:

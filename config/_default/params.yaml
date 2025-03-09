@@ -6,16 +6,16 @@
 # Appearance
 appearance:
   mode: system
-  color: emerald
+  color: blue
 
 # SEO
 marketing:
   seo:
     site_type: Person
     local_business_type: ""
-    org_name: ""
-    description: "The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website."
-    twitter: "GetResearchDev"
+    org_name: "kausky"
+    description: "Aakash Kaushik - ML Engineer and Software Engineer specializing in generative AI, LLMs, and distributed systems. Building scalable solutions that process millions of requests daily."
+    twitter: "kausky_ai"
   analytics:
     google_analytics: ""
     baidu_tongji: ""

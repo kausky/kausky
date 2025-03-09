@@ -1,7 +1,8 @@
 ---
-title: Learn Python
-summary: Easily learn Python in 10 minutes!
-date: 2023-10-24
+title: Advanced Python for Machine Learning
+subtitle: A comprehensive course on Python for ML applications
+
+date: 2024-02-15
 type: docs
 math: false
 tags:

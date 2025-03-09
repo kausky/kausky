@@ -1,7 +1,8 @@
 ---
-title: 📈 Communicate your results effectively with the best data visualizations
-summary: Use popular tools such as Plotly, Mermaid, and data frames.
-date: 2023-10-25
+title: Effective Data Visualization Techniques
+subtitle: Creating impactful visual representations of complex data
+
+date: 2024-03-04
 authors:
   - admin
 tags:

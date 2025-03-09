@@ -1,7 +1,8 @@
 ---
-title: ✅ Manage your projects
-summary: Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!
-date: 2023-10-23
+title: Effective Project Management for ML Engineers
+subtitle: Best practices for managing complex machine learning projects
+
+date: 2024-03-01
 authors:
   - admin
 tags:
