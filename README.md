@@ -16,7 +16,7 @@ I'm an Engineer & Machine Learning specialist at <a href="https://lyric.tech">Ly
 
 <p align="center">
     <a href="https://x.com/aakash7539" target="_blank"><img src="./assets/media/icons/x.svg" height="60px" width="60px" alt="X - twitter"></a>
-    <a href="https://www.linkedin.com/in/kaushikaakash7539/" target="_blank"><img src="./assets/media/icons/linkedIn.svg" height="60px" width="60px" alt="LinkedIn"></a>
+    <a href="https://www.linkedin.com/in/kaushikaakash7539/" target="_blank"><img src="./assets/media/icons/linkedin.svg" height="60px" width="60px" alt="LinkedIn"></a>
     <a href="mailto:kaushikaakash7539@gmail.com?subject=Hey&body=Message" target="_blank"><img src="./assets/media/icons/gmail.svg" height="60px" width="60px" alt="Gmail" ></a>
 </p>
 
