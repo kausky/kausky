@@ -4,7 +4,7 @@
 
 ### [kausky.com](https://kausky.com)
 
-**_Aakash Kaushik:  Engineering / GenAI / ML / GSOC_**
+**_Aakash Kaushik:  Engineering / GenAI / ML_**
 
 </div>
 
