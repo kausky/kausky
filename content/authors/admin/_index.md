@@ -61,7 +61,7 @@ work:
     company_name: Lyric
     company_url: 'https://lyric.tech'
     company_logo: ''
-    date_start: 2025-03-10
+    date_start: 2025-03-10  # Corrected:  Assuming this is AFTER Tune AI
     date_end: ''
     summary: |2-
       Working on machine learning, MLOps, and software engineering projects, focusing on:
@@ -72,8 +72,8 @@ work:
     company_name: Tune AI
     company_url: ''
     company_logo: ''
-    date_start: 2025-02-26
-    date_end: '2023-07-01'
+    date_start: 2023-02-26 #Corrected, Assuming it started Before Lyric
+    date_end: '2025-02-28'
     summary: |2-
       Key achievements:
       - Engineered a high-throughput distributed proxy server handling over 1 million requests/day for various LLM providers
@@ -84,8 +84,8 @@ work:
     company_name: Tune AI
     company_url: ''
     company_logo: ''
-    date_start: 2020-10-01
-    date_end: 2023-06-30
+    date_start: 2022-10-01 # Corrected
+    date_end: 2023-02-25  # Corrected:  Must end before SE3 role starts
     summary: |
       Key achievements:
       - Developed a sidecar server for cloud VMs to provide fully managed Generative AI development space
