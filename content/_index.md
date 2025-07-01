@@ -25,7 +25,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: 📆 Book a Meeting
-        url: https://calendly.com/aakash-kaushik
+        url: https://calendly.com/kaushikaakash7539/lets-talk
     design:
       css_class: dark
       background:
